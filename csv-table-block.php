@@ -14,7 +14,7 @@ function csv_table_block_register_block() {
         filemtime(plugin_dir_path(__FILE__) . 'block.js')
     );
 
-    register_block_type('custom/csv-table', array(
+    register_block_type('csv-table-block', array(
         'editor_script' => 'csv-table-block-editor',
     ));
 }
