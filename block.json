@@ -23,6 +23,7 @@
         "selector": "div.csv-table-block"
       }
     },
-    "style": "csv-table-block-front-style"
+    "style": "csv-table-block-front-style",
+    "editorScript": "file:./block.js"
   }
   
