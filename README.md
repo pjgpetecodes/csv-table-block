@@ -1,3 +1,3 @@
-# CSV to Table Block for Wordpress Guttenberg
+# CSV to Table Block for Wordpress Gutenberg
 
-This Wordpress Guttenberg Block imports a CSV and converts it to a Table.
+This Wordpress Gutenberg Block imports a CSV and converts it to a Table.

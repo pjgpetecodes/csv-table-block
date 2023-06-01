@@ -4,6 +4,7 @@ Plugin Name: CSV Table Block
 Description: A custom block for displaying CSV data in a table format.
 Version: 1.0
 Author: Pete Gallagher
+License: GPL2
 */
 
 function csv_table_block_register_block() {

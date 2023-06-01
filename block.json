@@ -1,0 +1,30 @@
+{
+    "name": "csv-table-block",
+    "title": "CSV Table Block",
+    "description": "A Gutenberg block for importing and displaying CSV data as a table.",
+    "version": "1.0.0",
+    "author": "Peter Gallagher",
+    "author_uri": "https://www.petecodes.co.uk",
+    "category": "widgets",
+    "keywords": [
+      "csv",
+      "table",
+      "block",
+      "gutenberg"
+    ],
+    "supports": {
+      "html": false,
+      "align": true
+    },
+    "attributes": {
+      "tableHTML": {
+        "type": "string",
+        "source": "html",
+        "selector": "div.csv-table-block"
+      }
+    },
+    "editor_script": "csv-table-block-editor-script",
+    "editor_style": "csv-table-block-editor-style",
+    "style": "csv-table-block-front-style"
+  }
+  
