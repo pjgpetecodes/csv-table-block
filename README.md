@@ -38,7 +38,10 @@ Use this tag in the Gutenberg editor or in your WordPress theme files to display
 
 ## Screenshots
 
-![CSV Table Block](screenshot.png)
+![CSV Table Block](images/screenshot1.png)
+![CSV Table Block](images/screenshot2.png)
+![CSV Table Block](images/screenshot3.png)
+![CSV Table Block](images/screenshot4.png)
 
 ## Support
 
