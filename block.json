@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.wp.org/trunk/block.json",
     "apiVersion": 2,
-    "name": "csv-table-block/csv-table-block",
+    "name": "csv-table-block",
     "title": "CSV Table Block",
     "description": "A Gutenberg block for importing and displaying CSV data as a table.",
     "version": "1.0.0",
