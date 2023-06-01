@@ -15,7 +15,7 @@ function csv_table_block_register_block() {
         filemtime(plugin_dir_path(__FILE__) . 'block.js')
     );
 
-    register_block_type('csv-table-block', array(
+    register_block_type('petecodes/csv-table-block', array(
         'editor_script' => 'csv-table-block-editor',
     ));
 }
