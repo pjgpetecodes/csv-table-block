@@ -25,7 +25,7 @@ The CSV Table Block Plugin allows you to easily import CSV files and display the
 
 The block tag for this plugin is:
 
-`[csv-table-block]`
+`[petecodes/csv-table-block]`
 
 Use this tag in the Gutenberg editor or in your WordPress theme files to display the CSV Table Block.
 

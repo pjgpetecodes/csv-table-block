@@ -6,7 +6,7 @@
     var Button = components.Button;
     var isImported = false; // State variable to track import status
 
-    blocks.registerBlockType('csv-table-block/block', {
+    blocks.registerBlockType('petecodes/csv-table-block/block', {
         title: __('CSV Table Block', 'petecodes/csv-table-block'),
         icon: 'table-row-after',
         category: 'widgets',
