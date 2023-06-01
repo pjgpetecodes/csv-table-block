@@ -30,7 +30,7 @@ CSV Table Block is a Gutenberg block plugin that allows you to import and displa
 
 The block tag for this plugin is:
 
-`[petecodes/csv-table-block]`
+`[csv-table-block]`
 
 Use this tag in the Gutenberg editor or in your WordPress theme files to display the CSV Table Block.
 
