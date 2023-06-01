@@ -42,7 +42,7 @@ Use this tag in the Gutenberg editor or in your WordPress theme files to display
 
 ## Support
 
-For any issues or feature requests, please open an issue on the [GitHub repository](https://github.com/your-username/csv-table-block).
+For any issues or feature requests, please open an issue on the [GitHub repository](https://github.com/pjgpetecodes/csv-table-block).
 
 ## Contributing
 
