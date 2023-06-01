@@ -1,10 +1,10 @@
 {
-    "name": "csv-table-block",
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "csv-table-block/csv-table-block",
     "title": "CSV Table Block",
     "description": "A Gutenberg block for importing and displaying CSV data as a table.",
     "version": "1.0.0",
-    "author": "Peter Gallagher",
-    "author_uri": "https://www.petecodes.co.uk",
     "category": "widgets",
     "keywords": [
       "csv",
@@ -23,8 +23,6 @@
         "selector": "div.csv-table-block"
       }
     },
-    "editor_script": "csv-table-block-editor-script",
-    "editor_style": "csv-table-block-editor-style",
     "style": "csv-table-block-front-style"
   }
   
