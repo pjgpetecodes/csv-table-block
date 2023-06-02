@@ -78,27 +78,21 @@
             return el(
                 'div',
                 null,
-                el(
-                    editor.MediaUploadCheck,
-                    null,
-                    el(MediaUpload, {
-                        onSelect: importCSV,
-                        allowedTypes: ['text/csv'],
-                        render: function (_ref) {
-
-                            // display the button if CSV is not imported otherwise display the table
-                            if (!props.attributes.isImported)
-                            {
+                !props.attributes.isImported ?                     
+                    el(
+                        editor.MediaUploadCheck,
+                        null,
+                        el(MediaUpload, {
+                            onSelect: importCSV,
+                            allowedTypes: ['text/csv'],
+                            render: function (_ref) {
                                 var open = _ref.open;
                                 return el(Button, { isPrimary: true, onClick: open }, __('Import CSV', 'csv-table-block'));    
                             }
-                            else
-                            {
-                                return el('div', { dangerouslySetInnerHTML: { __html: props.attributes.tableHTML } }); // Display the table using dangerouslySetInnerHTML
-                            }
-                        }
-                    })
-                )
+                        })
+                    )
+                : 
+                    el('div', { dangerouslySetInnerHTML: { __html: props.attributes.tableHTML } })
             );
         },
         save: function () {
